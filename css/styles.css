@@ -85,6 +85,11 @@ body {
 
 .nutrition-table h3 {
     margin-left: 1.5em;
+    font-weight: normal;
+}
+
+.nutrition-table span {
+    font-weight: bold;
 }
 
 .nutrition-val {
@@ -107,4 +112,67 @@ body {
 .nutrition-table hr, .ingredients-section hr, .instructions-section hr {
     color: hsla(24, 5%, 18%, 0.2);
     width: 85%;
+}
+
+.instructions-section hr {
+    width: 85%!important;
+}
+
+@media (min-width: 1440px) {
+    body {
+        background: hsl(30, 54%, 90%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head-img {
+        max-width: 700px;
+        position: relative;
+        top: 20px;
+    }
+
+    .card {
+        width: 780px;
+        background: hsl(0, 0%, 100%);
+        border-radius: 10px;
+        margin-bottom: 15em;
+        position: relative;
+        left: 30em;
+        top: 5em;
+    }
+
+    .head-img {
+        border-radius: 10px;
+    }
+
+    .title,.title-txt {
+        margin-left: -3.3em;
+    }
+
+    .title-txt {
+        margin-left: -2em;
+        width: 85%;
+    }
+
+    .title {
+        position: relative;
+        top: 0.55em;
+    }
+
+    .ingredients-section {
+        position: relative;
+        right: 6em;
+    }
+
+    .ingredients-section hr, .instructions-section hr {
+        width: 130%;
+    }
+
+    .nutrition-table hr {
+        width: 120%;
+        position: relative;
+        right: 4em;
+    }
 }
