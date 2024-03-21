@@ -9,6 +9,7 @@
             type="image/png"
             sizes="32x32"
             href="./images/favicon-32x32.png">
+            <link rel="import" href="https://fonts.google.com/specimen/Young+Serif">
         <link rel="stylesheet" href="css/styles.css">
         <title>Frontend Mentor | Recipe page</title>
     </head>
@@ -32,45 +33,51 @@
                 </div>
                 <div class="ingredients-section">
                     <h2 class="ingredients-title">Ingredients</h2>
-                    <ul>
+                    <ul class="ingredients-list">
                         <li>2-3 large eggs</li>
                         <li>Salt, to taste</li>
                         <li>Pepper, to taste</li>
                         <li>1 tablespoon of butter or oil</li>
                         <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
                     </ul>
+                    <hr>
                 </div>
                 <div class="instructions-section">
                     <h2 class="instructions-title">Instructions</h2>
-                    <ul>
-                        <li>Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper
+                    <ol class="instructions-list">
+                        <li><span>Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper
                             until they are well mixed. You can add a tablespoon of water or milk for a
                             fluffier texture.</li>
-                        <li>Heat the pan: Place a non-stick frying pan over medium heat and add butter
+                        <li><span>Heat the pan</span>: Place a non-stick frying pan over medium heat and add butter
                             or oil.</li>
-                        <li>Cook the omelette: Once the butter is melted and bubbling, pour in the eggs.
+                        <li><span>Cook the omelette</span>: Once the butter is melted and bubbling, pour in the eggs.
                             Tilt the pan to ensure the eggs evenly coat the surface.</li>
-                        <li>Add fillings (optional): When the eggs begin to set at the edges but are
+                        <li><span>Add fillings (optional)</span>: When the eggs begin to set at the edges but are
                             still slightly runny in the middle, sprinkle your chosen fillings over one half
                             of the omelette.</li>
-                        <li>Fold and serve: As the omelette continues to cook, carefully lift one edge
+                        <li><span>Fold and serve</span>: As the omelette continues to cook, carefully lift one edge
                             and fold it over the fillings. Let it cook for another minute, then slide it
                             onto a plate.</li>
-                        <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
-                    </ul>
+                        <li><span>Enjoy</span>: Serve hot, with additional salt and pepper if needed.</li>
+                    </ol>
                 </div>
                 <div class="nutrition-section">
                     <h2 class="nutrition-title">Nutrition</h2>
                     <p class="nutrition-txt">The table below shows nutritional values per serving
                         without the additional fillings.</p>
-                    <h3 class="calories">Calories
-                        <span class="calories-val">277kcal</span></h3>
-                    <h3 class="carbs">Carbs
-                        <span class="carbs-val">0g</span></h3>
-                    <h3 class="protein">Protein
-                        <span class="protein-val">20g</span></h3>
-                    <h3 class="fat">Fat
-                        <span class="fat-val">22g</span></h3>
+                        <div class="nutrition-table">
+                            <h3 class="calories">Calories
+                                <span class="calories-val nutrition-val">277kcal</span></h3>
+                                <hr>
+                            <h3 class="carbs">Carbs
+                                <span class="carbs-val nutrition-val">0g</span></h3>
+                                <hr>
+                            <h3 class="protein">Protein
+                                <span class="protein-val nutrition-val">20g</span></h3>
+                                <hr>
+                            <h3 class="fat">Fat
+                                <span class="fat-val nutrition-val">22g</span></h3>
+                        </div>
                 </div>
             </div>
         </main>

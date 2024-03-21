@@ -5,6 +5,8 @@ body {
     max-width: 375px;
     background: hsl(0, 0%, 100%);
     color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
 }
 
 .card {
@@ -49,11 +51,60 @@ body {
     width: 70%;
 }
 
-.itm span {
+.itm span,.instructions-list li span {
     font-weight: 700;
 }
 
 .itm {
     margin-bottom: 0.55em;
     padding-left: 1.45em;
+}
+
+.ingredients-list li::marker,.instructions-list li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients-title,.instructions-title,.nutrition-title {
+    color: hsl(14, 45%, 36%);
+    margin-left: 1.15em;
+}
+
+.ingredients-list li, .instructions-list li {
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+
+.ingredients-list li:last-of-type,.instructions-list li {
+    width: 65%;
+}
+
+.nutrition-txt {
+    width: 75%;
+    margin-left: 1.5em;
+}
+
+.nutrition-table h3 {
+    margin-left: 1.5em;
+}
+
+.nutrition-val {
+    position: relative;
+    left: 10em;
+}
+
+.carbs-val {
+    left: 11em;
+}
+
+.protein-val {
+    left: 10.5em;
+}
+
+.fat-val {
+    left: 12em;
+}
+
+.nutrition-table hr, .ingredients-section hr, .instructions-section hr {
+    color: hsla(24, 5%, 18%, 0.2);
+    width: 85%;
 }
