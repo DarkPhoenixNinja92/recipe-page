@@ -28,8 +28,8 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ### Links
 
-- Solution URL: [Github Code Repository](https://github.com/DarkPhoenixNinja92/recipe-page)
-- Live Site URL: [Github Pages Live Site](darkphoenixninja92.github.io/recipe-page)
+- Solution URL: [Github Code Repository](https://github.com/ShaunPour/recipe-page)
+- Live Site URL: [Github Pages Live Site](ShaunPour.github.io/recipe-page)
 
 ## My process
 
